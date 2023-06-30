@@ -8,7 +8,7 @@ export default function TodoItem({ pressHandler, item }) {
       <View style={styles.item}>
 
  <TouchableOpacity onPress={() => pressHandler(item.key)}>
-      <MaterialIcons name="delete" size={22} color="#333"  />
+      <MaterialIcons name="check-box" size={22} color="#333"  />
 
       </TouchableOpacity>
       
